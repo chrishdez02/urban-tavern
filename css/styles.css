@@ -1,0 +1,35 @@
+h2 {
+  text-transform: uppercase; }
+
+button {
+  text-transform: uppercase; }
+
+.btn-1 {
+  background-color: #F83D3D;
+  color: white; }
+
+.newsletter {
+  background-color: #000000;
+  color: white;
+  padding: 50px 0; }
+  .newsletter button {
+    width: 100%; }
+  .newsletter i {
+    color: white;
+    font-size: 1.5rem; }
+  .newsletter .social-icons-parent {
+    text-align: center; }
+    .newsletter .social-icons-parent .social-icons {
+      display: inline-block; }
+
+footer {
+  background-color: #000000; }
+  footer h2 {
+    color: white; }
+  footer p {
+    color: white;
+    line-height: 1.5;
+    margin-bottom: .25rem; }
+  footer a {
+    color: white;
+    display: block; }
