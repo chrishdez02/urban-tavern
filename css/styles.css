@@ -8,6 +8,64 @@ button {
   background-color: #F83D3D;
   color: white; }
 
+.navbar {
+  background-color: black; }
+
+.carousel-section .container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
+.carousel-section .carousel {
+  max-height: 90vh;
+  overflow: hidden; }
+  .carousel-section .carousel h1 {
+    font-size: 4rem;
+    text-transform: uppercase; }
+
+@media only screen and (min-width: 992px) {
+  .carousel-section .carousel .carousel-caption {
+    top: 20%; }
+  .carousel-section .carousel h1 {
+    font-size: 5rem;
+    text-transform: uppercase; }
+  .carousel-section .carousel button {
+    font-size: 1.5rem; } }
+
+@media only screen and (max-width: 992px) {
+  .carousel-section .carousel .carousel-caption {
+    top: 25%; }
+  .carousel-section .carousel h1 {
+    font-size: 4rem;
+    text-transform: uppercase; }
+  .carousel-section .carousel button {
+    font-size: 1.25rem; } }
+
+@media only screen and (max-width: 768px) {
+  .carousel-section .carousel .carousel-caption {
+    top: 25%; }
+  .carousel-section .carousel h1 {
+    font-size: 3rem;
+    text-transform: uppercase; }
+  .carousel-section .carousel button {
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 576px) {
+  .carousel-section .carousel .carousel-caption {
+    top: 25%; }
+  .carousel-section .carousel h1 {
+    font-size: 2rem;
+    text-transform: uppercase; } }
+
+.make-reservation form {
+  width: 100%; }
+
+.make-reservation button {
+  width: 100%; }
+
+.make-reservation .col-lg-4 {
+  padding-right: 5px;
+  padding-left: 5px; }
+
 .newsletter {
   background-color: #000000;
   color: white;

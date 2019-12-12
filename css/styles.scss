@@ -5,6 +5,11 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 // TYPOGRAPHY
 
@@ -24,8 +29,149 @@ button {
     color: white;
 }
 
+//NAVBAR
 
-//NEWSLETTER
+.navbar {
+
+    background-color: black;
+
+}
+
+//CAROUSEL
+
+.carousel-section {
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .carousel {
+        max-height: 90vh;
+        overflow: hidden;
+
+
+            h1 {
+                font-size: 4rem;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+
+@media only screen and (min-width: $lg){
+
+    .carousel-section {
+
+        .carousel {
+
+            .carousel-caption {
+                top: 20%;
+            }
+
+            h1 {
+                font-size: 5rem;
+                text-transform: uppercase;
+            }
+
+            button {
+                font-size: 1.5rem;
+            }
+
+        }
+
+    }
+
+}    
+
+
+@media only screen and (max-width: $lg){
+
+    .carousel-section {
+
+        .carousel {
+
+            .carousel-caption {
+                top: 25%;
+            }
+
+            h1 {
+                font-size: 4rem;
+                text-transform: uppercase;
+            }
+
+            button {
+                font-size: 1.25rem;
+            }
+        }
+
+    }
+
+}    
+
+@media only screen and (max-width: $md){
+
+    .carousel-section {
+    
+        .carousel {
+
+            .carousel-caption {
+                top: 25%;
+            }
+
+            h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+            }
+
+            button {
+                font-size: 1rem;
+            }
+        }
+    
+    }
+    
+}
+
+@media only screen and (max-width: $sm){
+
+    .carousel-section {
+    
+        .carousel {
+
+            .carousel-caption {
+                top: 25%;
+            }
+
+            h1 {
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+        }
+    
+    }
+
+}
+
+  
+
+//BODY
+
+.make-reservation {
+    form {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+.make-reservation {
+    .col-lg-4 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
 
 .newsletter {
     background-color: $color-newsletter;
@@ -75,5 +221,7 @@ footer {
         color: white;
         display: block;
     }
+
+
 }
 
