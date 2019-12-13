@@ -1,4 +1,4 @@
-h2 {
+h1, h2, h3, h4 {
   text-transform: uppercase; }
 
 button {
@@ -19,15 +19,13 @@ button {
   max-height: 90vh;
   overflow: hidden; }
   .carousel-section .carousel h1 {
-    font-size: 4rem;
-    text-transform: uppercase; }
+    font-size: 4rem; }
 
 @media only screen and (min-width: 992px) {
   .carousel-section .carousel .carousel-caption {
     top: 20%; }
   .carousel-section .carousel h1 {
-    font-size: 5rem;
-    text-transform: uppercase; }
+    font-size: 5rem; }
   .carousel-section .carousel button {
     font-size: 1.5rem; } }
 
@@ -35,8 +33,7 @@ button {
   .carousel-section .carousel .carousel-caption {
     top: 25%; }
   .carousel-section .carousel h1 {
-    font-size: 4rem;
-    text-transform: uppercase; }
+    font-size: 4rem; }
   .carousel-section .carousel button {
     font-size: 1.25rem; } }
 
@@ -44,8 +41,7 @@ button {
   .carousel-section .carousel .carousel-caption {
     top: 25%; }
   .carousel-section .carousel h1 {
-    font-size: 3rem;
-    text-transform: uppercase; }
+    font-size: 3rem; }
   .carousel-section .carousel button {
     font-size: 1rem; } }
 
@@ -53,8 +49,13 @@ button {
   .carousel-section .carousel .carousel-caption {
     top: 25%; }
   .carousel-section .carousel h1 {
-    font-size: 2rem;
-    text-transform: uppercase; } }
+    font-size: 2rem; } }
+
+.instagram-gallery .col {
+  padding: 0; }
+
+.instagram-gallery img {
+  width: 100%; }
 
 .make-reservation form {
   width: 100%; }
@@ -79,6 +80,50 @@ button {
     text-align: center; }
     .newsletter .social-icons-parent .social-icons {
       display: inline-block; }
+
+.newsletter-alt {
+  background-color: #F83D3D;
+  color: white;
+  padding: 50px 0; }
+  .newsletter-alt button {
+    width: 100%;
+    background-color: black; }
+  .newsletter-alt i {
+    color: white;
+    font-size: 1.5rem; }
+  .newsletter-alt .social-icons-parent {
+    text-align: center; }
+    .newsletter-alt .social-icons-parent .social-icons {
+      display: inline-block; }
+
+#banner-menu {
+  background-image: url(../images/banner-menu.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.main-banner h1 {
+  color: white; }
+
+.main-banner .row {
+  padding: 6rem 0; }
+
+.menu .container {
+  border: 10px solid grey; }
+
+.menu .menu-section {
+  background-color: #d1d1d1e7; }
+
+.menu h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0; }
+
+.our-food {
+  background-color: #F83D3D;
+  color: white; }
+  .our-food button {
+    border: 1px solid white; }
 
 footer {
   background-color: #000000; }

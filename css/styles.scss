@@ -1,5 +1,6 @@
 $color-footer: #000000;
 $color-newsletter: #000000;
+$color-newsletter-alt: #F83D3D;
 $color-btn-1: #F83D3D;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
@@ -13,7 +14,7 @@ $xl: 1200px;
 
 // TYPOGRAPHY
 
-h2 {
+h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
@@ -52,7 +53,7 @@ button {
 
             h1 {
                 font-size: 4rem;
-                text-transform: uppercase;
+
             }
         }
 
@@ -70,7 +71,7 @@ button {
 
             h1 {
                 font-size: 5rem;
-                text-transform: uppercase;
+
             }
 
             button {
@@ -96,7 +97,7 @@ button {
 
             h1 {
                 font-size: 4rem;
-                text-transform: uppercase;
+
             }
 
             button {
@@ -120,7 +121,7 @@ button {
 
             h1 {
                 font-size: 3rem;
-                text-transform: uppercase;
+
             }
 
             button {
@@ -144,7 +145,7 @@ button {
 
             h1 {
                 font-size: 2rem;
-                text-transform: uppercase;
+
             }
         }
     
@@ -152,6 +153,16 @@ button {
 
 }
 
+//INSTAGRAM GALLERY
+
+.instagram-gallery {
+    .col {
+        padding: 0;
+    }
+    img {
+        width: 100%;
+    }
+}
   
 
 //BODY
@@ -199,6 +210,87 @@ button {
     }
 
 
+}
+
+.newsletter-alt {
+    background-color: $color-newsletter-alt;
+    color: white;
+    padding: 50px 0;
+
+    button {
+        width: 100%;
+        background-color: black;
+    }
+
+    i {
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .social-icons-parent {
+        text-align: center;
+
+        .social-icons {
+            display: inline-block;
+            
+        }
+    
+    }
+
+
+}
+
+//BANNER
+
+#banner-menu {
+    background-image: url(../images/banner-menu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner {
+
+
+
+    h1 {
+
+        color: white;
+    }
+
+    .row {
+        padding: 6rem 0;
+    }
+}
+
+//MENU
+
+.menu {
+    .container {
+        border: 10px solid grey;
+    }
+
+    .menu-section {
+        background-color: #d1d1d1e7;
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+//ABOUT US
+
+.our-food {
+    background-color: $color-btn-1;
+    color: white;
+
+    button {
+        border: 1px solid white;
+    }
 }
 
 //FOOTER
