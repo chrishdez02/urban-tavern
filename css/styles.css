@@ -124,6 +124,14 @@ button {
   color: white; }
   .our-food button {
     border: 1px solid white; }
+  .our-food img {
+    width: 100%; }
+
+.our-story img {
+  width: 100%; }
+
+.testimonials i {
+  font-size: 4rem; }
 
 footer {
   background-color: #000000; }
